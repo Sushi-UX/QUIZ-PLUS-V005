@@ -18,6 +18,7 @@
 		FBCD6D8F22DE5D720080F3C1 /* GameSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = FBCD6D8E22DE5D710080F3C1 /* GameSound.wav */; };
 		FBCD6D9122DE5EC60080F3C1 /* QuizObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCD6D9022DE5EC60080F3C1 /* QuizObject.swift */; };
 		FBCD6D9322DE5F030080F3C1 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCD6D9222DE5F030080F3C1 /* QuizManager.swift */; };
+		FBCD6D9522DE60040080F3C1 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCD6D9422DE60040080F3C1 /* SoundManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		FBCD6D8E22DE5D710080F3C1 /* GameSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = GameSound.wav; path = ../../../../../Desktop/GameSound.wav; sourceTree = "<group>"; };
 		FBCD6D9022DE5EC60080F3C1 /* QuizObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizObject.swift; sourceTree = "<group>"; };
 		FBCD6D9222DE5F030080F3C1 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		FBCD6D9422DE60040080F3C1 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				FBCD6D9022DE5EC60080F3C1 /* QuizObject.swift */,
 				FBCD6D9222DE5F030080F3C1 /* QuizManager.swift */,
+				FBCD6D9422DE60040080F3C1 /* SoundManager.swift */,
 			);
 			path = Systems;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				FBCD6D9322DE5F030080F3C1 /* QuizManager.swift in Sources */,
 				FBCD6D7322DE59A40080F3C1 /* AppDelegate.swift in Sources */,
 				FBCD6D9122DE5EC60080F3C1 /* QuizObject.swift in Sources */,
+				FBCD6D9522DE60040080F3C1 /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
