@@ -78,6 +78,9 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Next Question"/>
+                                <connections>
+                                    <action selector="nextQuestionFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YRm-7K-ReC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOm-KH-W6a">
                                 <rect key="frame" x="37.5" y="549" width="300" height="50"/>
@@ -89,6 +92,9 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Play Again"/>
+                                <connections>
+                                    <action selector="playAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IFh-Pb-xSY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQg-wZ-AEf">
                                 <rect key="frame" x="37.5" y="629" width="300" height="16"/>
@@ -122,6 +128,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="Question3" destination="PFK-Xa-DOV" id="dYy-pC-0J6"/>
+                        <outlet property="Question4" destination="thJ-Bd-1oN" id="AxX-4d-PmP"/>
+                        <outlet property="TimerCountdown" destination="tQg-wZ-AEf" id="wGG-gL-6zT"/>
+                        <outlet property="falseButton" destination="ivO-QK-URq" id="QQq-dS-mF9"/>
+                        <outlet property="nextButton" destination="XkM-lG-KNG" id="qxJ-DX-N51"/>
+                        <outlet property="playAgainButton" destination="BOm-KH-W6a" id="zF5-Q2-Vcq"/>
+                        <outlet property="questionField" destination="KKR-ik-Gsh" id="Nak-cg-1h8"/>
+                        <outlet property="trueButton" destination="xbw-Ph-evJ" id="hO0-RK-grP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
