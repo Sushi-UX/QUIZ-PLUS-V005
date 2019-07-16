@@ -16,6 +16,8 @@
 		FBCD6D8B22DE5D540080F3C1 /* wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = FBCD6D8A22DE5D540080F3C1 /* wrong.wav */; };
 		FBCD6D8D22DE5D640080F3C1 /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = FBCD6D8C22DE5D640080F3C1 /* correct.wav */; };
 		FBCD6D8F22DE5D720080F3C1 /* GameSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = FBCD6D8E22DE5D710080F3C1 /* GameSound.wav */; };
+		FBCD6D9122DE5EC60080F3C1 /* QuizObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCD6D9022DE5EC60080F3C1 /* QuizObject.swift */; };
+		FBCD6D9322DE5F030080F3C1 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCD6D9222DE5F030080F3C1 /* QuizManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		FBCD6D8A22DE5D540080F3C1 /* wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = wrong.wav; path = ../../../../../Desktop/wrong.wav; sourceTree = "<group>"; };
 		FBCD6D8C22DE5D640080F3C1 /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = correct.wav; path = ../../../../../Desktop/correct.wav; sourceTree = "<group>"; };
 		FBCD6D8E22DE5D710080F3C1 /* GameSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = GameSound.wav; path = ../../../../../Desktop/GameSound.wav; sourceTree = "<group>"; };
+		FBCD6D9022DE5EC60080F3C1 /* QuizObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizObject.swift; sourceTree = "<group>"; };
+		FBCD6D9222DE5F030080F3C1 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		FBCD6D8922DE5A0C0080F3C1 /* Systems */ = {
 			isa = PBXGroup;
 			children = (
+				FBCD6D9022DE5EC60080F3C1 /* QuizObject.swift */,
+				FBCD6D9222DE5F030080F3C1 /* QuizManager.swift */,
 			);
 			path = Systems;
 			sourceTree = "<group>";
@@ -176,7 +182,9 @@
 			files = (
 				FBCD6D7522DE59A40080F3C1 /* ViewController.swift in Sources */,
 				FBCD6D7B22DE59A40080F3C1 /* Quiz_Plus_V5.xcdatamodeld in Sources */,
+				FBCD6D9322DE5F030080F3C1 /* QuizManager.swift in Sources */,
 				FBCD6D7322DE59A40080F3C1 /* AppDelegate.swift in Sources */,
+				FBCD6D9122DE5EC60080F3C1 /* QuizObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
